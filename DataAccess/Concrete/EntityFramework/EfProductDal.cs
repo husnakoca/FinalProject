@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
+    //NuGet
     class EfProductDal : IProductDal
     {
         public void Add(Product entity)
